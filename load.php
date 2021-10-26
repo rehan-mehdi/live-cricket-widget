@@ -1,5 +1,5 @@
 <?php
-			$conn = mysqli_connect("rm-gs5w3hl7g5l60o067.mysql.singapore.rds.aliyuncs.com", "dbtuser", "Daraz_123", "cricwick");
+			$conn = mysqli_connect("localhost", "root", "", "azadi_mission");
 			if ($conn-> connect_error) {
 				die("Connection failed:". $conn-> connect_error);
 			}
